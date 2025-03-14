@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@theme{
+  --breakpoint-lg: 90rem;
+
+  --color-black: #070724;
+  --color-slate900:   #38384F  ;
+  --color-slate800:  #838391;
+  --color-slate700 : #979797;
+  --color-yellow: #EDA249;
+  --color-blue: #2d68f0;
+  --color-cyan: #1ec2a4;
+  --color-purple: #6f2ed6;
+  --color-red:  #D83A34;
+  --color-green: #419EBB;
+  --color-orange500: #D14C32;
+  --color-orange400: #CD5120;
+  --color-neptune : #497efa;
+  --color-uranus : #65f0d5;
+  --color-saturn : #fccbcb;
+  --color-jupiter : #ecad7a;
+  --color-mars : #ff6a45;
+  --color-earth : #545bfe;
+  --color-venus : #f7cc7f;
+  --color-mercury : #def4fc;
+  --color-earthLine : #6d2e5d;
+
+  --font-Antonio: "Antonio", "sans-serif"; 
+  --font-League-Spartan: "League Spartan", "sans-serif"; 
+
+  --text-hLarge: 80px;
+  --text-hLarge--line-height: 103px; 
+
+  --text-hMedium: 40px;
+  --text-hMedium--line-height: 52px; 
+  --text-hMedium--letter-spacing: -1px; 
+
+  --text-hSmall: 12px;
+  --text-hSmall--line-height: 25px; 
+  --text-hSmall--letter-spacing: 2.6px; 
+
+  --text-hTiny: 11px;
+  --text-hTiny--line-height: 25px; 
+  --text-hTiny--letter-spacing: 1px; 
+
+  --text-body: 14px;
+  --text-body--line-height: 25px;  
+}
