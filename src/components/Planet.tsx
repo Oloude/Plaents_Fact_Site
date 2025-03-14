@@ -8,10 +8,10 @@ import Menu from "./Menu"
 
 
 function Planet() {
-    const [menuoption, setMenuoption] = useState('overview')
+    const [menuoption, setMenuoption] = useState< "overview" | "structure" | "geology">('overview')
     const [imageOption, setImageOption] = useState('planet')
 
-    function handleMenuoption(menuValue: string, imageValue:string){
+    function handleMenuoption(menuValue:  "overview" | "structure" | "geology", imageValue:string){
         setMenuoption(menuValue)
         setImageOption(imageValue)
     }

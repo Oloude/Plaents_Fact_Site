@@ -1,7 +1,7 @@
 import { useParams } from "react-router"
 
 type Contentmenuprops ={
-    handleMenuoption : (menuValue: string, imageValue:string)=> void,
+    handleMenuoption : (menuValue:  "overview" | "structure" | "geology", imageValue:string)=> void,
     menuOption : string
 }
 
