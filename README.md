@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github](https://github.com/oloude)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Planets Fact Site](https://planets-fact-app.netlify.app/)
 
 ## My process
 
