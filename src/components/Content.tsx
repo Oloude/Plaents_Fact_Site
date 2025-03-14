@@ -4,12 +4,25 @@ import { useParams } from 'react-router'
 
 
 type ContentProps ={
-    menuOption : string
+    menuOption : "overview" | "structure" | "geology"
 }
+
+type Planet = {
+  name: string;
+  overview: { content: string; source: string };
+  structure: { content: string; source: string };
+  geology: { content: string; source: string };
+  rotation: string;
+  revolution: string;
+  radius: string;
+  temperature: string;
+  images: { planet: string; internal: string; geology: string };
+};
+
 
 function Content({menuOption} : ContentProps) {
   const {planet} =  useParams()
-  const planetData = data.find(item => item.name === planet)
+  const planetData: Planet | undefined = data.find(item => item.name === planet)
   const desc = planetData ? planetData[menuOption].content : data[0][menuOption].content
   const source = planetData ? planetData[menuOption].source : data[0][menuOption].source
    
